@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" type="text/css" href="Calculadora_Enem.css" media="screen">
+    <title>Calculadora Enem</title>
+</head>
+
+<body>
+    <fieldset class="grupo">
+
+    <div>
+        <h1 id="título">Calculadora de Média Enem</h1>
+        <p id="subtítulo">Consulte aqui sua média do Enem!</p><br>
+    </div>
+
+    </fieldset>
+
+    <fieldset class="grupo">
+
+    <div class="subgrupo">
+        <label for="Redação"><strong>Redação</strong></label>
+        <input type="number" name="Redação" id="redação" size="2">
+        <label for="Matemática"><strong>Matemática</strong></label>
+        <input type="number" name="Matemática" id="matemáica" size="2">
+        <label for="Ciências"><strong>Ciências</strong></label>
+        <input type="number" name="Ciências" id="ciências" size="2">
+        <label for="Tecnologias"><strong>Tecnologias</strong></label>
+        <input type="number" name="Tecnologias" id="tecnologias" size="2">
+        <label for="Humanas"><strong>Humanas</strong></label>
+        <input type="number" name="Humanas" id="Humanas" size="2">
+    </div>
+
+    </fieldset>
+
+    <fieldset class="grupo">
+
+        <div>
+
+       <h2 id="título2">Resultado</h2> 
+       <button class="botão" type="submit" name="Resultado" id="resultado" onClick="Resultado()" >Consultar</button><br>
+       <label for="Resultado"><strong>Sua média é</strong></label><br>   
+
+        </div>
+
+    </fieldset>
+
+<fieldset class="grupo2">
+>
+    <div>
+        <h3 id="ResultadoFinal"></h3><br>
+    </div>
+
+</fieldset>
+    
+</body>
+</html>
